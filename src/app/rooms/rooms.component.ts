@@ -11,6 +11,13 @@ export class RoomsComponent {
 
   hotelName: string = "Hotel Kamau";
   numberOfRooms:number = 10;
+
+  hideRooms:boolean = false;
+
+  toggle():boolean{
+
+    return this.hideRooms = !this.hideRooms;
+  }
   
 
 }

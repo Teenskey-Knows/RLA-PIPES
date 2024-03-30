@@ -2,6 +2,14 @@
     <h1>Welcome to {{hotelName}}</h1>
 </header>
 
-Number of Rooms:
+<main>
 
-<div [innerText] = "numberOfRooms"></div>
+    <!-- Hidden is a property binding syntax -->
+    <div [hidden]="hideRooms">
+        Number of Rooms:
+        <div [innerText] = "numberOfRooms"></div>
+
+    </div>
+
+    <button (click)="toggle()">Toggle</button>
+</main>
