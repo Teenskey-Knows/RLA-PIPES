@@ -12,4 +12,17 @@
     </div>
 
     <button (click)="toggle()">Toggle</button>
+    <br>
+    <br>
+
+    <!-- How ngIf now works in angular 17 -->
+
+    <!-- You can also add @else if -->
+
+    @if(rooms.totalRooms > 0){
+        <h2>There is available rooms ready for rent</h2>
+    }
+    @else {
+        <h2>There are no available rooms as at now</h2>
+    }
 </main>
