@@ -13,5 +13,5 @@ import { RoomsComponent } from "./rooms/rooms.component";
 export class AppComponent {
   title = 'hotelInventory';
 
-  role = 'Users'
+  role = 'Admin';
 }

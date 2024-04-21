@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Room, RoomList } from './rooms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-rooms',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './rooms.component.html',
   styleUrl: './rooms.component.scss'
 })

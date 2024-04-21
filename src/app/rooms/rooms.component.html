@@ -1,3 +1,6 @@
+<!-- In this file you will learn about ngStyle,ngClass, if,for, hidden attributes
+Just read the code -->
+
 <header>
     <h1>Welcome to {{hotelName}}</h1>
 </header>
@@ -7,7 +10,7 @@
     <!-- Hidden is a property binding syntax -->
     <div [hidden]="hideRooms">
         Number of Rooms:
-        <div [innerText] = "numberOfRooms"></div>
+        <div [ngStyle]="{color: numberOfRooms > 9 ? 'green': 'yellow',backgroundColor: numberOfRooms > 8 ? 'yellow': 'orange'}" [innerText] = "numberOfRooms"></div>
 
     </div>
 
@@ -48,8 +51,8 @@
                 <!-- <th>
                     {{count}} Number of Rooms
                 </th> -->
-                <tbody>
-                <tr>
+                <tbody >
+                <tr [ngClass]="e? 'even':'odd'" >
                     <td>{{i + 1}}</td>
                     <td>{{room.roomType}}</td>
                     <td>{{room.price}}</td>
