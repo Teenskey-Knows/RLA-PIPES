@@ -43,6 +43,7 @@ Just read the code -->
             <th>Room Price</th>
             <th>Room Amenities</th>
             <th>Checkin Time</th>
+            <th>Rating</th>
           </tr>
         </thead>
         
@@ -57,7 +58,9 @@ Just read the code -->
                     <td>{{room.roomType}}</td>
                     <td>{{room.price}}</td>
                     <td>{{room.amenities}}</td>
-                    <td>{{room.checkinTime}}</td>
+                    <td>{{room.checkinTime | date: 'mediumDate'}}</td>
+                    <!-- There are various date formats that you can check on Angular Docs -->
+                    <td>{{room.rating | number: '1.0-0'}}</td>
 
                   </tr>
                 </tbody>

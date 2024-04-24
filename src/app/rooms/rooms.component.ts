@@ -21,7 +21,8 @@ export class RoomsComponent {
     price: 500,
     photos: 'https://www.istockphoto.com/photo/confident-young-woman-arriving-in-hotel-reception-gm1352189114-427686847?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_photo_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fphotos%2Fsearch%2Fafrica%2520hotels%2F&utm_term=africa+hotels',
     checkinTime: new Date('11-Nov-2021'),
-    checkoutTime: new Date('12-Jan-2021')
+    checkoutTime: new Date('12-Jan-2021'),
+    rating: 344.125
   },
   {
     roomNumber:2,
@@ -30,7 +31,9 @@ export class RoomsComponent {
     price: 1500,
     photos: 'https://www.istockphoto.com/photo/confident-young-woman-arriving-in-hotel-reception-gm1352189114-427686847?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_photo_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fphotos%2Fsearch%2Fafrica%2520hotels%2F&utm_term=africa+hotels',
     checkinTime: new Date('11-Jan-2024'),
-    checkoutTime: new Date('12-June-2024')
+    checkoutTime: new Date('12-June-2024'),
+      rating: 0.01
+    
   },
   {
     roomNumber:3,
@@ -39,7 +42,8 @@ export class RoomsComponent {
     price: 2500,
     photos: 'https://www.istockphoto.com/photo/confident-young-woman-arriving-in-hotel-reception-gm1352189114-427686847?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_photo_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fphotos%2Fsearch%2Fafrica%2520hotels%2F&utm_term=africa+hotels',
     checkinTime: new Date('11-Nov-2021'),
-    checkoutTime: new Date('12-Jan-2021')
+    checkoutTime: new Date('12-Jan-2021'),
+    rating: 2.145
   },
   {
     roomNumber:4,
@@ -48,7 +52,8 @@ export class RoomsComponent {
     price: 3500,
     photos: 'https://www.istockphoto.com/photo/confident-young-woman-arriving-in-hotel-reception-gm1352189114-427686847?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_photo_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fphotos%2Fsearch%2Fafrica%2520hotels%2F&utm_term=africa+hotels',
     checkinTime: new Date('11-Nov-2021'),
-    checkoutTime: new Date('12-Jan-2021')
+    checkoutTime: new Date('12-Jan-2021'),
+    rating: 3.156
   },
   {
     roomNumber:5,
@@ -57,7 +62,8 @@ export class RoomsComponent {
     price: 500,
     photos: 'https://www.istockphoto.com/photo/confident-young-woman-arriving-in-hotel-reception-gm1352189114-427686847?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_photo_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fphotos%2Fsearch%2Fafrica%2520hotels%2F&utm_term=africa+hotels',
     checkinTime: new Date('11-Nov-2021'),
-    checkoutTime: new Date('12-Jan-2021')
+    checkoutTime: new Date('12-Jan-2021'),
+    rating: 0.1
   }
 ]
 
